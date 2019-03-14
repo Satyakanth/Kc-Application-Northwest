@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F856C56223AF24D00607162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F856C55223AF24D00607162 /* AppDelegate.swift */; };
+		3F856C58223AF24D00607162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F856C57223AF24D00607162 /* ViewController.swift */; };
+		3F856C5B223AF24D00607162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F856C59223AF24D00607162 /* Main.storyboard */; };
+		3F856C5D223AF24E00607162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F856C5C223AF24E00607162 /* Assets.xcassets */; };
+		3F856C60223AF24E00607162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F856C5E223AF24E00607162 /* LaunchScreen.storyboard */; };
+		3F856C6B223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F856C6A223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppTests.swift */; };
+		3F856C76223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F856C75223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F856C67223AF24E00607162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F856C4A223AF24D00607162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F856C51223AF24D00607162;
+			remoteInfo = "The Northwest Programming Contest  Kc App";
+		};
+		3F856C72223AF24E00607162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F856C4A223AF24D00607162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F856C51223AF24D00607162;
+			remoteInfo = "The Northwest Programming Contest  Kc App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F856C52223AF24D00607162 /* The Northwest Programming Contest  Kc App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Northwest Programming Contest  Kc App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F856C55223AF24D00607162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F856C57223AF24D00607162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F856C5A223AF24D00607162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F856C5C223AF24E00607162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F856C5F223AF24E00607162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F856C61223AF24E00607162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F856C66223AF24E00607162 /* The Northwest Programming Contest  Kc AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Northwest Programming Contest  Kc AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F856C6A223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Northwest_Programming_Contest__Kc_AppTests.swift; sourceTree = "<group>"; };
+		3F856C6C223AF24E00607162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F856C71223AF24E00607162 /* The Northwest Programming Contest  Kc AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Northwest Programming Contest  Kc AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F856C75223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Northwest_Programming_Contest__Kc_AppUITests.swift; sourceTree = "<group>"; };
+		3F856C77223AF24E00607162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F856C4F223AF24D00607162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F856C63223AF24E00607162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F856C6E223AF24E00607162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F856C49223AF24D00607162 = {
+			isa = PBXGroup;
+			children = (
+				3F856C54223AF24D00607162 /* The Northwest Programming Contest  Kc App */,
+				3F856C69223AF24E00607162 /* The Northwest Programming Contest  Kc AppTests */,
+				3F856C74223AF24E00607162 /* The Northwest Programming Contest  Kc AppUITests */,
+				3F856C53223AF24D00607162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F856C53223AF24D00607162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F856C52223AF24D00607162 /* The Northwest Programming Contest  Kc App.app */,
+				3F856C66223AF24E00607162 /* The Northwest Programming Contest  Kc AppTests.xctest */,
+				3F856C71223AF24E00607162 /* The Northwest Programming Contest  Kc AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F856C54223AF24D00607162 /* The Northwest Programming Contest  Kc App */ = {
+			isa = PBXGroup;
+			children = (
+				3F856C55223AF24D00607162 /* AppDelegate.swift */,
+				3F856C57223AF24D00607162 /* ViewController.swift */,
+				3F856C59223AF24D00607162 /* Main.storyboard */,
+				3F856C5C223AF24E00607162 /* Assets.xcassets */,
+				3F856C5E223AF24E00607162 /* LaunchScreen.storyboard */,
+				3F856C61223AF24E00607162 /* Info.plist */,
+			);
+			path = "The Northwest Programming Contest  Kc App";
+			sourceTree = "<group>";
+		};
+		3F856C69223AF24E00607162 /* The Northwest Programming Contest  Kc AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F856C6A223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppTests.swift */,
+				3F856C6C223AF24E00607162 /* Info.plist */,
+			);
+			path = "The Northwest Programming Contest  Kc AppTests";
+			sourceTree = "<group>";
+		};
+		3F856C74223AF24E00607162 /* The Northwest Programming Contest  Kc AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F856C75223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppUITests.swift */,
+				3F856C77223AF24E00607162 /* Info.plist */,
+			);
+			path = "The Northwest Programming Contest  Kc AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F856C51223AF24D00607162 /* The Northwest Programming Contest  Kc App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F856C7A223AF24E00607162 /* Build configuration list for PBXNativeTarget "The Northwest Programming Contest  Kc App" */;
+			buildPhases = (
+				3F856C4E223AF24D00607162 /* Sources */,
+				3F856C4F223AF24D00607162 /* Frameworks */,
+				3F856C50223AF24D00607162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Northwest Programming Contest  Kc App";
+			productName = "The Northwest Programming Contest  Kc App";
+			productReference = 3F856C52223AF24D00607162 /* The Northwest Programming Contest  Kc App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F856C65223AF24E00607162 /* The Northwest Programming Contest  Kc AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F856C7D223AF24E00607162 /* Build configuration list for PBXNativeTarget "The Northwest Programming Contest  Kc AppTests" */;
+			buildPhases = (
+				3F856C62223AF24E00607162 /* Sources */,
+				3F856C63223AF24E00607162 /* Frameworks */,
+				3F856C64223AF24E00607162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F856C68223AF24E00607162 /* PBXTargetDependency */,
+			);
+			name = "The Northwest Programming Contest  Kc AppTests";
+			productName = "The Northwest Programming Contest  Kc AppTests";
+			productReference = 3F856C66223AF24E00607162 /* The Northwest Programming Contest  Kc AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F856C70223AF24E00607162 /* The Northwest Programming Contest  Kc AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F856C80223AF24E00607162 /* Build configuration list for PBXNativeTarget "The Northwest Programming Contest  Kc AppUITests" */;
+			buildPhases = (
+				3F856C6D223AF24E00607162 /* Sources */,
+				3F856C6E223AF24E00607162 /* Frameworks */,
+				3F856C6F223AF24E00607162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F856C73223AF24E00607162 /* PBXTargetDependency */,
+			);
+			name = "The Northwest Programming Contest  Kc AppUITests";
+			productName = "The Northwest Programming Contest  Kc AppUITests";
+			productReference = 3F856C71223AF24E00607162 /* The Northwest Programming Contest  Kc AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F856C4A223AF24D00607162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3F856C51223AF24D00607162 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3F856C65223AF24E00607162 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3F856C51223AF24D00607162;
+					};
+					3F856C70223AF24E00607162 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3F856C51223AF24D00607162;
+					};
+				};
+			};
+			buildConfigurationList = 3F856C4D223AF24D00607162 /* Build configuration list for PBXProject "The Northwest Programming Contest  Kc App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F856C49223AF24D00607162;
+			productRefGroup = 3F856C53223AF24D00607162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F856C51223AF24D00607162 /* The Northwest Programming Contest  Kc App */,
+				3F856C65223AF24E00607162 /* The Northwest Programming Contest  Kc AppTests */,
+				3F856C70223AF24E00607162 /* The Northwest Programming Contest  Kc AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F856C50223AF24D00607162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F856C60223AF24E00607162 /* LaunchScreen.storyboard in Resources */,
+				3F856C5D223AF24E00607162 /* Assets.xcassets in Resources */,
+				3F856C5B223AF24D00607162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F856C64223AF24E00607162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F856C6F223AF24E00607162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F856C4E223AF24D00607162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F856C58223AF24D00607162 /* ViewController.swift in Sources */,
+				3F856C56223AF24D00607162 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F856C62223AF24E00607162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F856C6B223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F856C6D223AF24E00607162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F856C76223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F856C68223AF24E00607162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F856C51223AF24D00607162 /* The Northwest Programming Contest  Kc App */;
+			targetProxy = 3F856C67223AF24E00607162 /* PBXContainerItemProxy */;
+		};
+		3F856C73223AF24E00607162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F856C51223AF24D00607162 /* The Northwest Programming Contest  Kc App */;
+			targetProxy = 3F856C72223AF24E00607162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F856C59223AF24D00607162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F856C5A223AF24D00607162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F856C5E223AF24E00607162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F856C5F223AF24E00607162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F856C78223AF24E00607162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F856C79223AF24E00607162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F856C7B223AF24E00607162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Northwest Programming Contest  Kc App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "northwestapp.The-Northwest-Programming-Contest--Kc-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F856C7C223AF24E00607162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Northwest Programming Contest  Kc App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "northwestapp.The-Northwest-Programming-Contest--Kc-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F856C7E223AF24E00607162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Northwest Programming Contest  Kc AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "northwestapp.The-Northwest-Programming-Contest--Kc-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Northwest Programming Contest  Kc App.app/The Northwest Programming Contest  Kc App";
+			};
+			name = Debug;
+		};
+		3F856C7F223AF24E00607162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Northwest Programming Contest  Kc AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "northwestapp.The-Northwest-Programming-Contest--Kc-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Northwest Programming Contest  Kc App.app/The Northwest Programming Contest  Kc App";
+			};
+			name = Release;
+		};
+		3F856C81223AF24E00607162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Northwest Programming Contest  Kc AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "northwestapp.The-Northwest-Programming-Contest--Kc-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Northwest Programming Contest  Kc App";
+			};
+			name = Debug;
+		};
+		3F856C82223AF24E00607162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Northwest Programming Contest  Kc AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "northwestapp.The-Northwest-Programming-Contest--Kc-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Northwest Programming Contest  Kc App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F856C4D223AF24D00607162 /* Build configuration list for PBXProject "The Northwest Programming Contest  Kc App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F856C78223AF24E00607162 /* Debug */,
+				3F856C79223AF24E00607162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F856C7A223AF24E00607162 /* Build configuration list for PBXNativeTarget "The Northwest Programming Contest  Kc App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F856C7B223AF24E00607162 /* Debug */,
+				3F856C7C223AF24E00607162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F856C7D223AF24E00607162 /* Build configuration list for PBXNativeTarget "The Northwest Programming Contest  Kc AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F856C7E223AF24E00607162 /* Debug */,
+				3F856C7F223AF24E00607162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F856C80223AF24E00607162 /* Build configuration list for PBXNativeTarget "The Northwest Programming Contest  Kc AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F856C81223AF24E00607162 /* Debug */,
+				3F856C82223AF24E00607162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F856C4A223AF24D00607162 /* Project object */;
+}
