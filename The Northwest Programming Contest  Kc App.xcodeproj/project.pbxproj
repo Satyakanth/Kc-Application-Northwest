@@ -14,6 +14,12 @@
 		3F856C60223AF24E00607162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F856C5E223AF24E00607162 /* LaunchScreen.storyboard */; };
 		3F856C6B223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F856C6A223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppTests.swift */; };
 		3F856C76223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F856C75223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppUITests.swift */; };
+		3F856C84223AF4F100607162 /* SchoolsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F856C83223AF4F100607162 /* SchoolsTableViewController.swift */; };
+		3F856C86223AF52000607162 /* TeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F856C85223AF52000607162 /* TeamsTableViewController.swift */; };
+		3F856C88223AF5B300607162 /* NewSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F856C87223AF5B300607162 /* NewSchoolViewController.swift */; };
+		3F856C8A223AF5CA00607162 /* NewTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F856C89223AF5CA00607162 /* NewTeamViewController.swift */; };
+		3F856C8C223B005400607162 /* studentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F856C8B223B005400607162 /* studentViewController.swift */; };
+		3F856C8E223B021A00607162 /* northwestapp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F856C8D223B021A00607162 /* northwestapp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		3F856C71223AF24E00607162 /* The Northwest Programming Contest  Kc AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Northwest Programming Contest  Kc AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F856C75223AF24E00607162 /* The_Northwest_Programming_Contest__Kc_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Northwest_Programming_Contest__Kc_AppUITests.swift; sourceTree = "<group>"; };
 		3F856C77223AF24E00607162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F856C83223AF4F100607162 /* SchoolsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsTableViewController.swift; sourceTree = "<group>"; };
+		3F856C85223AF52000607162 /* TeamsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewController.swift; sourceTree = "<group>"; };
+		3F856C87223AF5B300607162 /* NewSchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSchoolViewController.swift; sourceTree = "<group>"; };
+		3F856C89223AF5CA00607162 /* NewTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTeamViewController.swift; sourceTree = "<group>"; };
+		3F856C8B223B005400607162 /* studentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentViewController.swift; sourceTree = "<group>"; };
+		3F856C8D223B021A00607162 /* northwestapp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northwestapp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +112,15 @@
 				3F856C55223AF24D00607162 /* AppDelegate.swift */,
 				3F856C57223AF24D00607162 /* ViewController.swift */,
 				3F856C59223AF24D00607162 /* Main.storyboard */,
+				3F856C8B223B005400607162 /* studentViewController.swift */,
+				3F856C89223AF5CA00607162 /* NewTeamViewController.swift */,
+				3F856C87223AF5B300607162 /* NewSchoolViewController.swift */,
+				3F856C85223AF52000607162 /* TeamsTableViewController.swift */,
 				3F856C5C223AF24E00607162 /* Assets.xcassets */,
 				3F856C5E223AF24E00607162 /* LaunchScreen.storyboard */,
 				3F856C61223AF24E00607162 /* Info.plist */,
+				3F856C83223AF4F100607162 /* SchoolsTableViewController.swift */,
+				3F856C8D223B021A00607162 /* northwestapp.swift */,
 			);
 			path = "The Northwest Programming Contest  Kc App";
 			sourceTree = "<group>";
@@ -256,7 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F856C88223AF5B300607162 /* NewSchoolViewController.swift in Sources */,
+				3F856C84223AF4F100607162 /* SchoolsTableViewController.swift in Sources */,
 				3F856C58223AF24D00607162 /* ViewController.swift in Sources */,
+				3F856C8C223B005400607162 /* studentViewController.swift in Sources */,
+				3F856C8E223B021A00607162 /* northwestapp.swift in Sources */,
+				3F856C86223AF52000607162 /* TeamsTableViewController.swift in Sources */,
+				3F856C8A223AF5CA00607162 /* NewTeamViewController.swift in Sources */,
 				3F856C56223AF24D00607162 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
