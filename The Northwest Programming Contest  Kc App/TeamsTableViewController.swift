@@ -30,7 +30,7 @@ class TeamsTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let item = tableView.dequeueReusableCell(withIdentifier: "teams", for: indexPath)
+        let item = tableView.dequeueReusableCell(withIdentifier: "team_table", for: indexPath)
         item.textLabel?.text = school.teams[indexPath.row].name
         return item
     }
@@ -44,11 +44,11 @@ class TeamsTableViewController: UITableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "Team Details"{
+        if segue.identifier == "toStudentsPage"{
             let studentsVC = segue.destination as! studentViewController
             studentsVC.team = school.teams[tableView.indexPathForSelectedRow!.row]
         }
-        else if segue.identifier == "New Team"{
+        else if segue.identifier == "toAddTeam"{
             let newTeamview = segue.destination as! NewTeamViewController
             newTeamview.teamname = school
         }

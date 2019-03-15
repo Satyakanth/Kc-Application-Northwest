@@ -37,7 +37,7 @@ class SchoolsTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "schools", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "school_table", for: indexPath)
         cell.textLabel?.text = Schools.shared[indexPath.row].name
         cell.detailTextLabel?.text = Schools.shared[indexPath.row].coach
         return cell
@@ -92,7 +92,7 @@ class SchoolsTableViewController: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
      
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     if segue.identifier == "schoolidentifier"{
+     if segue.identifier == "toTeamsPage"{
      let schoolDetailsVC = segue.destination as! TeamsTableViewController
      schoolDetailsVC.school = Schools.shared[tableView.indexPathForSelectedRow!.row]
      }

@@ -37,7 +37,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="schools" textLabel="OOd-wW-sNq" detailTextLabel="TRT-PV-0K1" style="IBUITableViewCellStyleSubtitle" id="SiB-RH-hzH">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="school_table" textLabel="OOd-wW-sNq" detailTextLabel="TRT-PV-0K1" style="IBUITableViewCellStyleSubtitle" id="SiB-RH-hzH">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SiB-RH-hzH" id="hOi-It-GV9">
@@ -61,7 +61,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="YHr-e6-LUn" kind="show" identifier="schoolidentifier" id="F4n-Xa-7jA"/>
+                                    <segue destination="YHr-e6-LUn" kind="show" identifier="toTeamsPage" id="F4n-Xa-7jA"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -255,13 +255,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="teams" id="Bex-Vz-fnq">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="team_table" id="Bex-Vz-fnq">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bex-Vz-fnq" id="uhY-qk-jHA">
                                     <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Lm1-0h-SO4" kind="show" identifier="toStudentsPage" id="NCf-gN-zDN"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -272,13 +275,10 @@
                     <navigationItem key="navigationItem" title="Teams" id="Pe7-qG-u6e">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="mPS-3p-fOw">
                             <connections>
-                                <segue destination="sjJ-Za-apa" kind="modal" identifier="New Team" id="kRv-bn-YFr"/>
+                                <segue destination="sjJ-Za-apa" kind="modal" identifier="toAddTeam" id="kRv-bn-YFr"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <segue destination="Lm1-0h-SO4" kind="show" identifier="Team Details" id="jI9-eF-RMm"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddL-O2-XT1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -15,7 +15,6 @@ class Schools{
     
     private init(schools: [School]) {
         self.schools = schools
-        self.schools.append(School(name: "NWMSU", coach: "Satya"))
     }
     
     private convenience init(){
@@ -61,15 +60,14 @@ class School:Equatable{
         self.teams = []
     }
     
-    func addTeam(name: String, students: [String]){
-        print("New Team Added")
-        teams.append(Team(name: name, students: students))
-    }
-    
     
     
     static func == (lhs: School, rhs: School) -> Bool {
         return lhs.name == rhs.name && lhs.coach == rhs.coach && lhs.teams == rhs.teams
+    }
+    
+    func addTeam(name: String, students: [String]){
+        teams.append(Team(name: name, students: students))
     }
 }
 
